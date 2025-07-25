@@ -21,6 +21,9 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: row;
+    /*flex-direction: colummn;*/
+    /*flex-direction: colummn;*/
+    /*flex-direction: colummn;*/
     width: 80%;
     margin: 0 auto;
 }
