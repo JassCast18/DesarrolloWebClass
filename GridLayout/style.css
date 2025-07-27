@@ -8,12 +8,12 @@ body{
     height: 650px;
     display: grid;
     grid-template-columns: 70% auto;
-   /*  grid-template-rows: 20% 10% 60% auto; */
-    grid-template-rows: 20% 10% auto 10%;
+    grid-template-rows: 20% 10% 60% auto;
+    /* grid-template-rows: 20% 10% auto 10%;
     grid-template-areas: 'cabecera cabecera'
                          'menu menu'
                          'contenido lateral'
-                         'footer footer';
+                         'footer footer'; */
     background-color: lightgreen;
     border: 1px solid black;
 }
@@ -24,7 +24,7 @@ body{
     text-align: center;
     padding: 20px;
 }
-/* 
+
 .c1{
     grid-column: 1 / span 2;
     background-color: lightskyblue;
@@ -43,8 +43,8 @@ body{
     grid-column:1 / span 2;
     background-color: green;
 }
- */
-.c1{
+
+/* .c1{
     grid-area: cabecera;
     background-color: lightskyblue;
 }
@@ -66,4 +66,4 @@ body{
 .c5{
     grid-area: footer;
     background-color: green;
-}
+} */
