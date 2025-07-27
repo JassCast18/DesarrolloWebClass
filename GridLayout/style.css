@@ -8,7 +8,12 @@ body{
     height: 650px;
     display: grid;
     grid-template-columns: 70% auto;
-    grid-template-rows: 20% 10% 60% auto;
+   /*  grid-template-rows: 20% 10% 60% auto; */
+    grid-template-rows: 20% 10% auto 10%;
+    grid-template-areas: 'cabecera cabecera'
+                         'menu menu'
+                         'contenido lateral'
+                         'footer footer';
     background-color: lightgreen;
     border: 1px solid black;
 }
@@ -19,7 +24,7 @@ body{
     text-align: center;
     padding: 20px;
 }
-
+/* 
 .c1{
     grid-column: 1 / span 2;
     background-color: lightskyblue;
@@ -36,5 +41,29 @@ body{
 
 .c5{
     grid-column:1 / span 2;
+    background-color: green;
+}
+ */
+.c1{
+    grid-area: cabecera;
+    background-color: lightskyblue;
+}
+
+.c2{
+    grid-area: menu;
+    background-color: lightyellow;
+    
+}
+
+.c3{
+    grid-area: contenido;
+    background-color: lightsalmon;
+}
+.c4{
+    grid-area: lateral;
+    background-color: lightcoral;
+}
+.c5{
+    grid-area: footer;
     background-color: green;
 }

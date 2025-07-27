@@ -20,10 +20,13 @@ body{
     background: #ccc;
     padding: 20px;
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: colummn-reverse;*/
     /*flex-direction: colummn;*/
-    /*flex-direction: colummn;*/
-    /*flex-direction: colummn;*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap-reverse;
+    justify-content: baseline; /*Probar esta propiedad*/
     width: 80%;
     margin: 0 auto;
 }
