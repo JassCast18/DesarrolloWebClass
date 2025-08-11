@@ -12,7 +12,7 @@ import { Footer } from '../layout/Footer';
 
 export const Rutas = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DesarrolloWebClass">
         {/*Header y Navegacion*/}
         <HeaderNav></HeaderNav>
 

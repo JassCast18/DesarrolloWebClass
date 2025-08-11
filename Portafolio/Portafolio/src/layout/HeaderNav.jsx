@@ -1,6 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import { Navbar, Nav, Container, Image } from 'react-bootstrap'
+import logo from '../assets/images/logo.png'; 
 
 export const HeaderNav = () => {
   return (
@@ -9,7 +10,7 @@ export const HeaderNav = () => {
         {/* Logo redondeado */}
         <Navbar.Brand as={NavLink} to="/inicio" className="d-flex align-items-center">
           <Image 
-          src="/images/logo.png" 
+          src={logo} 
           alt="Logo" 
           roundedCircle
           width={70} height={70} 
